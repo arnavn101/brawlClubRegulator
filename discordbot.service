@@ -1,0 +1,16 @@
+
+[Unit]
+Description=Discord Bot
+After=network.target
+
+[Service]
+User=discord
+Group=www-data
+WorkingDirectory=/home/discord/brawlClubRegulator
+Environment="PATH=/home/discord/brawlClubRegulator"
+ExecStart=/usr/bin/python3.7 brawlClubRegulator.py
+
+[Install]
+WantedBy=multi-user.target
+
+

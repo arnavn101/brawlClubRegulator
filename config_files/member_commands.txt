@@ -1,0 +1,10 @@
+brawlstats 
+commands
+adminCommands
+registeruser 
+returnbrawler 
+returnmap 
+returntop5 
+returnuser  
+initiateteam
+displayavatar
